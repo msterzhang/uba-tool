@@ -1,0 +1,74 @@
+body {
+    overflow-x: hidden;
+
+}
+
+.page-container{
+    display: none;
+}
+
+.md-content {
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20px;
+}
+
+
+.md-card.md-theme-default.md-with-hover:hover {
+    transition-duration: .5s;
+    transform: scale(1.05);
+}
+
+
+
+.md-card-media img {
+    width: 100%;
+    height: 100%;
+}
+
+.md-card{
+    margin-top: 25px;
+}
+
+.md-card.md-theme-default {
+    transition: transform .3s;
+}
+
+.md-card.md-theme-default {
+     border-radius: 5px;
+}
+
+.md-card-media {
+    border-radius: 5px;
+}
+
+.md-card-area{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+.md-dialog-toolbar {
+    display: flex;
+    align-items: center;
+}
+
+span.md-dialog-title {
+    width: 100%;
+}
+
+
+.dialog-form-data button{
+    width: 95%;
+}
+
+.dialog-form-data {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer {
+    padding: 10px;
+    border-top: 1px solid #f0f2f7;
+    box-shadow: 120px 80px 40px 20px;
+}
