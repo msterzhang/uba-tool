@@ -11,8 +11,8 @@ func main() {
 	r.Static("/statics", "./statics")
 	r.LoadHTMLGlob("templates/*")
 	r.GET("/", func(c *gin.Context) {
-		c.HTML(200, "index.html",gin.H{"Host":"http://localhost:8080"})
+		c.HTML(200, "index.html",gin.H{"Host":"http://localhost:8006"})
 	})
-	r.Run(":8080")
-	fmt.Println("http://localhost:8080")
+	r.Run(":8006")
+	fmt.Println("http://localhost:8006")
 }
